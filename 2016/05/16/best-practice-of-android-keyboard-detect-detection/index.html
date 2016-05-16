@@ -3,17 +3,20 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Tag: hexo | LeslieX&#39;s blog</title>
+    <title>键盘弹出隐藏处理最佳实践 | LeslieX&#39;s blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="LeslieX's blog">
-<meta property="og:url" content="http://lesslie.github.io/tags/hexo/index.html">
+    <meta name="description" content="关于键盘的弹出隐藏事件的监听回调。稍后填坑！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="键盘弹出隐藏处理最佳实践">
+<meta property="og:url" content="http://lesslie.github.io/2016/05/16/best-practice-of-android-keyboard-detect-detection/index.html">
 <meta property="og:site_name" content="LeslieX's blog">
-<meta property="og:description">
+<meta property="og:description" content="关于键盘的弹出隐藏事件的监听回调。稍后填坑！">
+<meta property="og:image" content="http://lesliex.com/imgs/img-android-keyboard.png">
+<meta property="og:updated_time" content="2016-05-16T05:16:03.732Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LeslieX's blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="键盘弹出隐藏处理最佳实践">
+<meta name="twitter:description" content="关于键盘的弹出隐藏事件的监听回调。稍后填坑！">
+<meta name="twitter:image" content="http://lesliex.com/imgs/img-android-keyboard.png">
     
 
     
@@ -194,20 +197,16 @@ var _hmt = _hmt || [];
 </aside>
 
             
-            <section id="main">
-<div class="timeline timeline-wrap">
-    <div class="timeline-row timeline-row-major">
-        <span class="node"><i class="fa fa-tag"></i></span>
-        <h1 class="title">#hexo</h1>
-    </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
+            <section id="main"><article id="post-best-practice-of-android-keyboard-detect-detection" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
                 
     
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/2016/04/25/hexo-yml-using-introduction/">HEXO 搭建github pages 实践</a>
+        <h1 class="article-title" itemprop="name">
+            键盘弹出隐藏处理最佳实践
         </h1>
     
 
@@ -215,8 +214,8 @@ var _hmt = _hmt || [];
                     
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2016/04/25/hexo-yml-using-introduction/">
-            <time datetime="2016-04-25T06:05:31.000Z" itemprop="datePublished">2016-04-25</time>
+        <a href="/2016/05/16/best-practice-of-android-keyboard-detect-detection/">
+            <time datetime="2016-05-16T05:09:34.000Z" itemprop="datePublished">2016-05-16</time>
         </a>
     </div>
 
@@ -224,20 +223,153 @@ var _hmt = _hmt || [];
                     
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/work/">work</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/work/hexo/">hexo</a>
+        <a class="article-category-link" href="/categories/learning/">learning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/learning/android/">android</a>
     </div>
 
                     
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/github-pages/">github-pages</a>, <a class="tag-link" href="/tags/hexo/">hexo</a>, <a class="tag-link" href="/tags/markdown/">markdown</a>
+        <a class="tag-link" href="/tags/android/">android</a>, <a class="tag-link" href="/tags/keyboard/">keyboard</a>
     </div>
 
                 </div>
-            </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>关于键盘的弹出隐藏事件的监听回调。稍后填坑！<br><a id="more"></a></p>
+
+        
         </div>
-    
+        <footer class="article-footer">
+            <div class="share-container">
+
+    <div class="jiathis_style">
+    <span class="jiathis_txt">分享到：</span>
+    <a class="jiathis_button_qzone">QQ空间</a>
+    <a class="jiathis_button_tsina">新浪微博</a>
+    <a class="jiathis_button_tqq">腾讯微博</a>
+    <a class="jiathis_button_weixin">微信</a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+    <a class="jiathis_counter_style"></a>
 </div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<style>
+    .jiathis_style div:first-child:not(.jiadiv_01) {
+        width: auto !important;
+        border: none !important;
+    }
+    .jiathis_style .jiadiv_01 {
+        margin: 10px 0;
+        border-radius: 4px;
+        border: #e1e1e1 solid 1px;
+    }
+    .jiathis_style .jiadiv_01 div:first-child {
+        display: none;
+    }
+    .jiathis_style .jiadiv_02 {
+        padding: 7px 0 !important;
+    }
+    .jiathis_style .jiadiv_02 .jiatitle {
+        width: 85px;
+        border: none;
+        height: auto;
+        margin: 3px 10px;
+        padding: 6px 10px;
+        border-radius: 4px;
+    }
+    .jiathis_style .jiadiv_02 .jiatitle:hover {
+        border: none;
+    }
+    .jiathis_style .jiadiv_02 .jiatitle:nth-child(even) {
+        margin-left: 0;
+    }
+    .jiathis_style .jtico:hover {
+        opacity: 1;
+    }
+    .jiathis_style .ckepopBottom,
+    .jiathis_style .centerBottom {
+        width: auto !important;
+        padding: 5px;
+        background: #f7f7f7;
+    }
+</style>
+
+
+
+</div>
+
+            
+    
+        <a href="/2016/05/16/best-practice-of-android-keyboard-detect-detection/#comments" class="article-comment-link ds-thread-count" data-thread-key="2016/05/16/best-practice-of-android-keyboard-detect-detection/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2016/05/16/android-tech-collection/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">优秀解决方案收集</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    <section id="comments">
+    
+        
+    <div class="ds-thread" data-thread-key="2016/05/16/best-practice-of-android-keyboard-detect-detection/" data-title="键盘弹出隐藏处理最佳实践" data-url="http://lesslie.github.io/2016/05/16/best-practice-of-android-keyboard-detect-detection/"></div>
+    <style>
+        #ds-thread #ds-reset .ds-textarea-wrapper {
+            background: none;
+        }
+        #ds-reset .ds-avatar img {
+            box-shadow: none;
+        }
+        #ds-reset .ds-gradient-bg {
+            background: #f7f7f7;
+        }
+        #ds-thread #ds-reset li.ds-tab a {
+            border-radius: 3px;
+        }
+        #ds-thread #ds-reset .ds-post-button {
+            color: white;
+            border: none;
+            box-shadow: none;
+            background: #d32;
+            text-shadow: none;
+            font-weight: normal;
+            font-family: 'Microsoft Yahei';
+        }
+        #ds-thread #ds-reset .ds-post-button:hover {
+            color: white;
+            background: #DE594C;
+        }
+        #ds-thread #ds-reset .ds-post-button:active {
+            background: #d32;
+        }
+        #ds-smilies-tooltip ul.ds-smilies-tabs li a.ds-current {
+            color: white;
+            background: #d32;
+            box-shadow: none;
+            text-shadow: none;
+            font-weight: normal;
+        }
+    </style>
+
+    
+    </section>
+
 </section>
             
                 <aside id="sidebar">
